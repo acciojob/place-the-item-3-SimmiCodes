@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+#holder {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+
+#summary, #actor, #quote, aside {
+    flex: 1;
+    margin: 10px; 
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
